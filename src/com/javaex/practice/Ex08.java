@@ -8,10 +8,9 @@ public class Ex08 {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("키와 몸무게를 입력해 주십시오.");
-		System.out.println("먼저, 키를 입력해주세요.");
+		System.out.print("키: ");
 		double key = sc.nextDouble();
-		System.out.println("키:"+key);
-		System.out.println("이제, 몸무게를 입력해주세요.");
+		System.out.print("몸무게: ");
 		double mom = sc.nextDouble();
 		
 		double BMI = mom / Math.pow(key/100,2);

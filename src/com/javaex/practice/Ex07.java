@@ -7,9 +7,11 @@ public class Ex07 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("나이를 입력해주세요.");
+		System.out.println("나이: ");
 		
 		double age = scanner.nextDouble();
 		String cost = null;
+		
 		
 		if (age >= 0 && age <=7) {
 			cost = "취학전아동/무료";
