@@ -38,6 +38,7 @@ public class Ex15 {
 			break;
 			}
 		}
+		sc.close();
 	}
 }
 
